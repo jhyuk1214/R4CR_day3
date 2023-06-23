@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "markdown.html",
+    "href": "markdown.html",
+    "title": "markdown",
+    "section": "",
+    "text": "마크다운 기초 실습\nheader"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html#meet-quarto",
+    "href": "index.html#meet-quarto",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html#meet-the-penguins",
+    "href": "index.html#meet-the-penguins",
+    "title": "Hello, Quarto",
+    "section": "Meet the penguins",
+    "text": "Meet the penguins\n\nThe penguins data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\nThe plot below shows the relationship between flipper and bill lengths of these penguins."
+  },
+  {
+    "objectID": "hello_solution.html",
+    "href": "hello_solution.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "hello_solution.html#meet-quarto",
+    "href": "hello_solution.html#meet-quarto",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "hello_solution.html#meet-the-penguins",
+    "href": "hello_solution.html#meet-the-penguins",
+    "title": "Hello, Quarto",
+    "section": "Meet the penguins",
+    "text": "Meet the penguins\n\nThe penguins data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\nThe plot below shows the relationship between flipper and bill lengths of these penguins."
+  },
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Column\n\nColumn 2\n\n\n\n\n\n\n\n\n\n이렇게 나눠서 하려면\n.incremental\n로 구분\n\n\n\n\n.nonincremental\n는 미리 나와있음.\n모든 슬라이드에 적용: YAML에 (권장하지 않음)\n\n\n\n\n\n여러개를\n나눠서\n\n\n\n\n나오게 하려면\n.fragment\n\n\n\n\n\n\n\n\n슬라이드 내용\n\n:::{.notes}\n발표자 노트 내용 (S키로)\n:::\n\n발표자 노트 내용\n\n\n\n\n\n이 내용에 주석을 달고 싶으면\n이렇게도 1\n달 수 있음 2\n\n\n\n이렇게 달 수 있습니다.\n\n\n\n\n\n\n{.r code-line-numbers='4-6'}\n\n#| eval: false\n#| echo: true\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')\n\n\n\n\n\n\n\n\n\n\n#| fig-width: 3\n\nfig-width: 3\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')\n\n\n\n\n\n\nfig-width: 6\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')\n\n\n\n\n\n\n\n\n\n\n#| fig-height: 4\n\nfig-height: 4\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')\n\n\n\n\n\n\nfig-height: 8\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')\n\n\n\n\n\n\n\n\n\n\nCodeResult\n\n\n\nprint(1+1)\n\n\n\n\nprint(1+1)\n\n[1] 2"
+  },
+  {
+    "objectID": "presentation.html#page",
+    "href": "presentation.html#page",
+    "title": "Overview",
+    "section": "",
+    "text": "Column\n\nColumn 2"
+  },
+  {
+    "objectID": "presentation.html#step",
+    "href": "presentation.html#step",
+    "title": "Overview",
+    "section": "",
+    "text": "이렇게 나눠서 하려면\n.incremental\n로 구분\n\n\n\n\n.nonincremental\n는 미리 나와있음.\n모든 슬라이드에 적용: YAML에 (권장하지 않음)\n\n\n\n\n\n여러개를\n나눠서\n\n\n\n\n나오게 하려면\n.fragment"
+  },
+  {
+    "objectID": "presentation.html#발표자-노트-작성",
+    "href": "presentation.html#발표자-노트-작성",
+    "title": "Overview",
+    "section": "",
+    "text": "슬라이드 내용\n\n:::{.notes}\n발표자 노트 내용 (S키로)\n:::\n\n발표자 노트 내용"
+  },
+  {
+    "objectID": "presentation.html#주석",
+    "href": "presentation.html#주석",
+    "title": "Overview",
+    "section": "",
+    "text": "이 내용에 주석을 달고 싶으면\n이렇게도 1\n달 수 있음 2\n\n\n\n이렇게 달 수 있습니다."
+  },
+  {
+    "objectID": "presentation.html#code-highlight",
+    "href": "presentation.html#code-highlight",
+    "title": "Overview",
+    "section": "",
+    "text": "{.r code-line-numbers='4-6'}\n\n#| eval: false\n#| echo: true\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')"
+  },
+  {
+    "objectID": "presentation.html#figure-width",
+    "href": "presentation.html#figure-width",
+    "title": "Overview",
+    "section": "",
+    "text": "#| fig-width: 3\n\nfig-width: 3\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')\n\n\n\n\n\n\nfig-width: 6\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')"
+  },
+  {
+    "objectID": "presentation.html#figure-height",
+    "href": "presentation.html#figure-height",
+    "title": "Overview",
+    "section": "",
+    "text": "#| fig-height: 4\n\nfig-height: 4\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')\n\n\n\n\n\n\nfig-height: 8\n\n\nlibrary(ggplot2)\nlibrary(magrittr)\niris %&gt;% \n  ggplot(\n    aes(\n      x = Sepal.Length, \n      y = Sepal.Width, \n      color = Species\n    )\n  ) + \n  geom_point() + \n  theme(legend.position = 'bottom')"
+  },
+  {
+    "objectID": "presentation.html#tabsets",
+    "href": "presentation.html#tabsets",
+    "title": "Overview",
+    "section": "",
+    "text": "CodeResult\n\n\n\nprint(1+1)\n\n\n\n\nprint(1+1)\n\n[1] 2"
+  },
+  {
+    "objectID": "presentation.html#footnotes",
+    "href": "presentation.html#footnotes",
+    "title": "Overview",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n각주내용↩︎\n각주내용2↩︎"
+  },
+  {
+    "objectID": "markdown.html#header2",
+    "href": "markdown.html#header2",
+    "title": "markdown",
+    "section": "header2",
+    "text": "header2\n\nheader3\n\nBold / Italic\n\nBold Italic\n\n링크\n\nText\ngoogle\n\n이미지\n\n\n\n\n고양이\n\n\n\n콜아웃\n\n그냥 텍스트\n볼드 텍스트\n\n강조할 텍스트\n\n\n리스트 . 숫자 리스트\n아이템\n\n아이템\n\n아이템\n\n\n\n\n1번\n\n2번\n\nㅇㄹㄴㅇㄹ\n\n\n코드\n\nprint()\n\na &lt;- 1+2\n\nprint(a)\n\n[1] 3\n\n\n1+2는 3입니다.\n1 + 2는 1+2dlqslek.\n\n구분자\n\n\n\n취소선\n\ndsfasd\nsadf\nasdfsad"
+  },
+  {
+    "objectID": "hello.html",
+    "href": "hello.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "hello.html#meet-quarto",
+    "href": "hello.html#meet-quarto",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "hello.html#meet-the-penguins",
+    "href": "hello.html#meet-the-penguins",
+    "title": "Hello, Quarto",
+    "section": "Meet the penguins",
+    "text": "Meet the penguins\n\nThe penguins data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\n\n\n\n\n\n[1] 5\n\n\n\nhead(iris)\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa\n\nknitr::kable(head(iris))\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n5.0\n3.6\n1.4\n0.2\nsetosa\n\n\n5.4\n3.9\n1.7\n0.4\nsetosa\n\n\n\n\nreactable::reactable(head(iris))\n\n\n\n\n\nDT::datatable(head(iris))"
+  }
+]

@@ -1,5 +1,11 @@
 ---
 title: "Hello, Quarto"
+subtitle: 'R4CR Quarto 실습'
+author: 최종혁
+categories: [Quarto, palmerpenguins, R]
+toc: true
+toc-location: right
+date: last-modified
 format: html
 editor: visual
 ---
@@ -41,3 +47,36 @@ ggplot(penguins,
   ) +
   theme_minimal()
 ```
+
+
+
+
+
+
+
+```{r}
+#| eval: true
+#| echo: false
+
+x <-2
+y <-3
+print(x+y)
+```
+
+
+
+```{r}
+head(iris)
+
+knitr::kable(head(iris))
+
+reactable::reactable(head(iris))
+
+DT::datatable(head(iris))
+```
+
+
+
+
+
+
