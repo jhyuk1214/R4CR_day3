@@ -8,12 +8,90 @@ format: html
 - 렌더 (Viewer)
 
 - 헤더
+
+header
+
+# header1
+
+## header2
+
+### header3
+
 - Bold / Italic
+
+**Bold**
+*Italic*
+
 - 링크
+
+[Text](Link)
+
+[google](https://google.com)
+
 - 이미지
+
+![고양이](https://www.chemicalnews.co.kr/news/photo/202106/3636_10174_4958.jpg)
+
 - 콜아웃 
+
+그냥 텍스트
+
+**볼드 텍스트**
+
+>강조할 텍스트
+
+
+
+
+
 - 리스트 . 숫자 리스트
+
+
+
+- 아이템
+  - 아이템
+    - 아이템
+    
+1. 1번
+    1. 2번
+2. ㅇㄹㄴㅇㄹ
+
+
+
+
 - 코드
+
+`print()`
+
+```{r}
+
+a <- 1+2
+
+print(a)
+
+```
+
+1+2는 `r 1+2`입니다.
+
+1 + 2는 `1+2`dlqslek.
+
 - 구분자
+
+---
+
+
+
 - 취소선
+
+^dsfasd^
+
+~sadf~
+
+~~asdfsad~~
+
+
+
+
+
+
 
