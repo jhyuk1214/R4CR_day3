@@ -1,0 +1,49 @@
+---
+title: "Untitled"
+format: revealjs
+---
+
+## First page
+:::{.incremental}
+- Item
+- Item2
+:::
+
+## Second page
+
+:::{.fragment}
+- Item1
+- Item2
+:::
+
+:::{.fragment}
+- Item3
+- Item4
+:::
+
+
+
+## third page
+
+:::: {.columns}
+
+::: {.column width="10%"}
+- 행 구분한
+:::
+
+::: {.column width="90%"}
+- 슬라이드 aaaaaaaaaaaaaaaaaaaaaaaaa
+:::
+
+::::
+
+
+
+## 4
+
+- blabla
+- item2
+
+:::{.notes}
+발표자 노트 내용 (S키로)
+:::
